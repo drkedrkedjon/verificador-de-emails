@@ -13,6 +13,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1rem;
   color: aliceblue;
+  text-align: center;
 }
 
 h1 {
@@ -23,6 +24,9 @@ h2 {
   font-size: 1.8em;
   margin-top: 2em;
 }
+p {
+  font-size: 1.5em;
+}
 .container {
   margin-top: 6em;
   display: flex;
@@ -31,8 +35,8 @@ h2 {
   justify-content: flex-start;  
 }
 #txt-area {
-  min-width: 300px;
-  padding: 0.5em;
+  min-width: 500px;
+  padding: 0.3em;
   font-size: 2em;
   text-align: center;
 }
