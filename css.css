@@ -51,3 +51,6 @@ p {
   margin-top: 1em;
   cursor: pointer;
 }
+#mensaje {
+  margin-top: 2em;
+}
