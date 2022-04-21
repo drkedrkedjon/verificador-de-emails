@@ -21,6 +21,8 @@ async function verificador() {
       <p>Este correo electrónico (${data.data.email_address}) proviene del dominio (${data.data.domain}).</br>
       El correo ${deliverableMensaje}, y ${spamMensaje}</p>    
     `
+    txtArea.value = ''
+    
   } catch (fallo) {
     console.error(fallo)
   }
