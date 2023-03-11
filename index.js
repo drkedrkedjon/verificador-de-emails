@@ -4,7 +4,7 @@ const txtArea = document.querySelector('#txt-area')
 btnVerificar.addEventListener('click', verificador)
 let spamMensaje = ''
 let deliverableMensaje = ''
-
+ 
 async function verificador() {
   try {
     const respuesta = await fetch(`https://api.eva.pingutil.com/email?email=${txtArea.value}`)
